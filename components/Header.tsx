@@ -40,6 +40,21 @@ function Header() {
         <div className='ml-5 flex items-center lg:hidden'>
             <MenuIcon className='icon' />
         </div>
+
+{/* Sign in Sign Out Button */}
+        <div className='hidden lg:flex items-center space-x-2 border
+        border-gray-100 p-2 cursor-pointer'>
+            <div className="relative h-5 w-5 flex-shrink-0">
+                <Image
+                src="https://cdn.worldvectorlogo.com/logos/reddit-2.svg"
+                objectFit='contain'
+                layout='fill'
+                alt="" 
+                />
+            </div>
+
+            <p className='text-gray-400'>Sign In</p>
+        </div>
     </div>
   )
 }
